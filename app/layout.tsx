@@ -3,8 +3,8 @@ import LoadingScreen from "./components/LoadingScreen";
 import { siteUrl } from "./lib/site";
 import "./globals.css";
 
-const title = "Empire SMP | Griefable Minecraft Survival Server";
-const description = "Join Empire SMP, a griefable Minecraft survival server. Survive, build a settlement, form alliances, and make your mark in a world with real risk.";
+const title = "The Empire SMP | Minecraft Survival Server";
+const description = "Join The Empire SMP, a  Minecraft survival server. Survive, build a settlement, form alliances, and make your mark in a world with real risk.";
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Empire SMP",
     title,
     description,
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Empire SMP — Build your own kingdom in a griefable Minecraft survival world" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Empire SMP — Build your own kingdom in a Minecraft survival world" }],
   },
   twitter: {
     card: "summary_large_image",

@@ -1,10 +1,9 @@
 import Reveal from "./Reveal";
-import JoinActions from "./JoinActions";
 
-const joinSteps = [
-  { title: "Connect to the server", description: "Copy the address below and add Empire SMP to your Minecraft server list." },
-  { title: "Bring your first idea", description: "Whether it is a quiet cabin or the start of a capital, arrive with a plan—or wander until the land gives you one." },
-  { title: "Write the next chapter", description: "Meet the people already making their mark, then decide how you want to shape the realm alongside them." },
+const realmNotes = [
+  { title: "Make a life here", description: "Start with the land, gather what you need, and grow from a first shelter into something worth remembering." },
+  { title: "Nothing is untouchable", description: "Empire is griefable. Builds can be lost, rebuilt, or defended together; that risk is part of the world." },
+  { title: "The story is yours", description: "Survive, grow, and have fun. What the realm becomes is shaped by the people who play in it." },
 ];
 
 export default function JoinSection() {
@@ -13,8 +12,18 @@ export default function JoinSection() {
       <div className="join-sky" aria-hidden="true" />
       <div className="section-frame join-frame">
         <Reveal className="join-heading"><p className="eyebrow">The gates are open</p><h2 id="join-title">Your place in<br />the realm awaits.</h2><p>Connect with Minecraft 26.3 or the latest version compatible with the server, and join the Discord community to keep up with server details.</p></Reveal>
-        <JoinActions />
-        <ol className="join-steps">{joinSteps.map((step, index) => <Reveal className="join-step" delay={index * 140} key={step.title}><span className="join-mark" aria-hidden="true">{["✦", "⚑", "♜"][index]}</span><h3>{step.title}</h3><p>{step.description}</p></Reveal>)}</ol>
+        <Reveal className="realm-charter">
+          <div className="charter-heading">
+            <h3>A realm<br />without guarantees.</h3>
+            <p>Empire SMP is a shared survival world. Make something of your own, knowing the world can change around you.</p>
+          </div>
+          <div className="charter-clauses">
+            {realmNotes.map((note) => <article className="charter-clause" key={note.title}>
+              <h4>{note.title}</h4>
+              <p>{note.description}</p>
+            </article>)}
+          </div>
+        </Reveal>
       </div>
     </section>
   );

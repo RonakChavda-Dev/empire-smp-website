@@ -20,7 +20,7 @@ If you connect a custom domain later, set `NEXT_PUBLIC_SITE_URL` to that full HT
 
 ## Local use
 
-- `npm run dev` — run the development server
+- `npm run dev` — run Next.js and a local player-status proxy (the proxy is needed because the Cloudflare Pages Function is not part of `next dev`)
 - `npm run build` — create the static site in `out/`
 
 ## Discord preview image

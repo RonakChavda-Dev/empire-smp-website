@@ -16,7 +16,10 @@ export default function ServerPresence() {
 
     async function refresh() {
       try {
-        const response = await fetch("/api/players", { cache: "no-store", signal: controller.signal });
+        const endpoint = process.env.NODE_ENV === "development"
+          ? `${window.location.protocol}//${window.location.hostname}:8788/api/players`
+          : "/api/players";
+        const response = await fetch(endpoint, { cache: "no-store", signal: controller.signal });
         if (!response.ok) throw new Error("Player status is unavailable");
         const result = await response.json() as { online?: unknown; max?: unknown };
         if (typeof result.online !== "number" || !Number.isFinite(result.online)) throw new Error("No player count returned");
