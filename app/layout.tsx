@@ -4,25 +4,25 @@ import { siteUrl } from "./lib/site";
 import "./globals.css";
 
 const title = "The Empire SMP | Minecraft Survival Server";
-const description = "Join The Empire SMP, a  Minecraft survival server. Survive, build a settlement, form alliances, and make your mark in a world with real risk.";
+const description = "The Empire is a Minecraft survival world. Find your ground, make your mark, and decide what is worth defending.";
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title,
   description,
-  applicationName: "Empire SMP",
+  applicationName: "The Empire SMP",
   category: "gaming",
-  keywords: ["Empire SMP", "Minecraft SMP", "Minecraft survival server", "griefable SMP", "Minecraft multiplayer"],
+  keywords: ["The Empire SMP", "Minecraft SMP", "shared Minecraft survival world", "Minecraft survival server", "Minecraft multiplayer"],
   alternates: { canonical: "/" },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "Empire SMP",
+    siteName: "The Empire SMP",
     title,
     description,
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Empire SMP — Build your own kingdom in a Minecraft survival world" }],
+    images: [{ url: "/og-image.png", width: 1731, height: 909, alt: "The Empire SMP — Build your own kingdom in a shared Minecraft survival world" }],
   },
   twitter: {
     card: "summary_large_image",
