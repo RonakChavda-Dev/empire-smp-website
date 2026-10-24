@@ -4,7 +4,9 @@ import GameplayPath from "./components/GameplayPath";
 import JoinSection from "./components/JoinSection";
 import Reveal from "./components/Reveal";
 import ServerCode from "./components/ServerCode";
+import ServerPresence from "./components/ServerPresence";
 import SiteHeader from "./components/SiteHeader";
+import JoinActions from "./components/JoinActions";
 
 export default function HomePage() {
   return (
@@ -16,11 +18,20 @@ export default function HomePage() {
         <div className="hero-frame">
           <div className="hero-copy">
             <EmpireMark large />
-            <p className="hero-kicker">A world without safe walls</p>
+            <p className="hero-kicker">A world with lots of fun!</p>
             <h1 id="hero-title">Build your<br /><em>own kingdom.</em></h1>
-            <p className="hero-description">Empire is a griefable Minecraft survival world. Find your ground, make your mark, and decide what is worth defending.</p>
+            <p className="hero-description">The Empire is a Minecraft survival world. Find your ground, make your mark, and decide what is worth defending.</p>
             <a className="gold-button" href="#join">Enter the realm <span aria-hidden="true">↗</span></a>
           </div>
+          <aside className="realm-panel" aria-label="Empire SMP server information">
+            <div className="realm-panel-heading">
+              <div><p className="eyebrow">The realm at a glance</p><h2>Enter The Empire.</h2></div>
+              <span className="realm-panel-crest" aria-hidden="true">♜</span>
+            </div>
+            <ServerPresence />
+            <JoinActions compact />
+            <p className="realm-panel-note">A survival world. Make your mark and mind your walls.</p>
+          </aside>
           <div className="hero-caption"><span>THE KEEP AT DUSK</span><span>One world. Your story.</span></div>
         </div>
         <a className="scroll-cue" href="#world" aria-label="Scroll to explore"><span />Descend into the realm</a>

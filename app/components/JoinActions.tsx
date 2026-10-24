@@ -5,7 +5,7 @@ import { useState } from "react";
 const SERVER_IP = "theempiresmp.play.hosting";
 const DISCORD_INVITE = "https://discord.gg/r8Tp55WBbS";
 
-export default function JoinActions() {
+export default function JoinActions({ compact = false }: { compact?: boolean }) {
   const [copied, setCopied] = useState(false);
   const [copyFailed, setCopyFailed] = useState(false);
 
@@ -21,7 +21,7 @@ export default function JoinActions() {
   }
 
   return (
-    <div className="join-actions" aria-label="Join Empire SMP">
+    <div className={`join-actions${compact ? " join-actions-compact" : ""}`} aria-label="Join Empire SMP">
       <button className="join-action join-action-server" type="button" onClick={copyServerAddress}>
         <span className="join-action-label">{copied ? "Server IP copied" : copyFailed ? "Select the address below" : "Copy server IP"}</span>
         <strong>{SERVER_IP}</strong>
