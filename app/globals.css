@@ -1232,6 +1232,8 @@ a {
 .footer-wordmark {
   width: 100%;
   margin: 72px 0 0;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
   color: var(--wine-dark);
   font-family: var(--serif);
   font-size: clamp(127.2px, 20.14vw, 445.2px);
@@ -1812,6 +1814,8 @@ a {
   .footer-wordmark {
     margin-top: 60px;
     margin-bottom: 0;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
     font-size: clamp(95.4px, 20.14vw, 190.8px);
     letter-spacing: -0.08em;
   }
