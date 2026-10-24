@@ -63,8 +63,8 @@ export default function HomePage() {
           <div className="footer-close"><p className="eyebrow">The realm is yours to shape</p><h2>Make history<br />block by block.</h2><a className="footer-link" href="#before-you-join">Find your way in <span aria-hidden="true">↗</span></a></div>
           <EmpireMark large />
         </div>
-        <div className="footer-wordmark" aria-hidden="true">EMPIRE</div>
-        <div className="footer-bottom section-frame"><span>Empire SMP · A shared survival world</span><a href="#home">Return to the keep ↑</a></div>
+        <div className="footer-wordmark" aria-hidden="true">THE EMPIRE</div>
+        <div className="footer-bottom section-frame"><span>The Empire SMP · A shared survival world</span><a href="#home">Return to the keep ↑</a></div>
       </footer>
     </main>
   );

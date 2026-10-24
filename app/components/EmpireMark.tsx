@@ -10,7 +10,7 @@ export default function EmpireMark({ large = false, crestOnly = false }: { large
         <path className="crest-crown" d="m31 28 6 5 9-11 9 11 6-5-3 11H34l-3-11Z" />
         <path className="crest-line" d="M30 72h32M33 77h26" />
       </svg>
-      {!crestOnly && <span className="brand-name">Empire <small>SMP</small></span>}
+      {!crestOnly && <span className="brand-name">The Empire <small>SMP</small></span>}
     </a>
   );
 }
