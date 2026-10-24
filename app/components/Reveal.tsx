@@ -7,10 +7,21 @@ export default function Reveal({ children, className = "", delay = 0 }: { childr
   useEffect(() => {
     const element = ref.current;
     if (!element || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    element.dataset.reveal = "pending";
+    if (!("IntersectionObserver" in window)) {
+      element.dataset.reveal = "visible";
+      return;
+    }
+
+    const shouldWait = element.getBoundingClientRect().top > window.innerHeight * 0.88;
+    element.dataset.reveal = shouldWait ? "pending" : "visible";
+    if (!shouldWait) return;
+
     const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) { element.dataset.reveal = "visible"; observer.unobserve(element); }
-    }, { threshold: 0.08, rootMargin: "0px 0px -5% 0px" });
+      if (entry.isIntersecting) {
+        element.dataset.reveal = "visible";
+        observer.unobserve(element);
+      }
+    }, { threshold: 0.01, rootMargin: "0px 0px -8% 0px" });
     observer.observe(element);
     return () => observer.disconnect();
   }, []);
