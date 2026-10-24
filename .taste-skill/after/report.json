@@ -1,0 +1,2373 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-23T17:44:30.812Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.95,
+    0.8,
+    0.34,
+    0.96,
+    1,
+    0.34,
+    0.84
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 3,
+    "transitions": 20,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6004,
+     "screens": 6.7,
+     "words": 483,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "EMPIRE",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 528,
+     "vw": 36.7,
+     "font": "Barlow Condensed",
+     "weight": 700,
+     "tracking": -0.055,
+     "leading": 0.76,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 360,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "EMPIRE",
+     "words": 1,
+     "lines": 1,
+     "size": 528,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "EMPIRE",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 528,
+      "vw": 36.7,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.76,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 360,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Build a life. Risk it.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1080,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your story. Your empire.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 1817,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "No soft edges.",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2769,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your place awaits.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 3743,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Good to know.",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 4747,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "EMPIRE",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 528,
+      "vw": 36.7,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.76,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 5509,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      24,
+      92,
+      528
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.5
+     },
+     "measureChars": 50,
+     "max": {
+      "size": 528,
+      "vw": 36.7,
+      "font": "Barlow Condensed",
+      "text": "EMPIRE"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#161719",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.06,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#262022",
+       "top": 86,
+       "hsl": {
+        "h": 340,
+        "s": 0.09,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#d3d7d4",
+       "top": 886,
+       "hsl": {
+        "h": 135,
+        "s": 0.05,
+        "l": 0.84
+       }
+      },
+      {
+       "color": "#161719",
+       "top": 1644,
+       "hsl": {
+        "h": 220,
+        "s": 0.06,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#242526",
+       "top": 2597,
+       "hsl": {
+        "h": 210,
+        "s": 0.03,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#c8ccca",
+       "top": 3570,
+       "hsl": {
+        "h": 150,
+        "s": 0.04,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#e9eceb",
+       "top": 5291,
+       "hsl": {
+        "h": 160,
+        "s": 0.07,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c1bbb1",
+       "share": 0.47
+      },
+      {
+       "color": "#e9eceb",
+       "share": 0.18
+      },
+      {
+       "color": "#363a37",
+       "share": 0.1
+      },
+      {
+       "color": "#393c3a",
+       "share": 0.09
+      },
+      {
+       "color": "#383c39",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c9a36b",
+      "hsl": {
+       "h": 36,
+       "s": 0.47,
+       "l": 0.6
+      },
+      "fg": "#171514"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Enter the world ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1966
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2923
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4116
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4747
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.9
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 86,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow condensed",
+     "dm sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6004,
+    "margins": {
+     "left": 74,
+     "right": 74
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 86,
+      "height": 800,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "EMPIRE",
+       "size": 528,
+       "tag": "h1"
+      },
+      "left": 74,
+      "right": 132,
+      "textLeft": 74,
+      "textRight": 132,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#world.world-section",
+      "tag": "section",
+      "top": 886,
+      "height": 758,
+      "words": 64,
+      "media": 0,
+      "middle": 283,
+      "heading": {
+       "text": "Build a life. Risk it.",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 74,
+      "right": 107,
+      "textLeft": 74,
+      "textRight": 107,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.path-section",
+      "tag": "section",
+      "top": 1644,
+      "height": 952,
+      "words": 124,
+      "media": 0,
+      "middle": 230,
+      "heading": {
+       "text": "Your story. Your empire.",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 74,
+      "right": 137,
+      "textLeft": 74,
+      "textRight": 137,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#code.code-section",
+      "tag": "section",
+      "top": 2597,
+      "height": 974,
+      "words": 109,
+      "media": 0,
+      "middle": 444,
+      "heading": {
+       "text": "No soft edges.",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 74,
+      "right": 85,
+      "textLeft": 74,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#join.join-section",
+      "tag": "section",
+      "top": 3570,
+      "height": 1021,
+      "words": 97,
+      "media": 0,
+      "middle": 89,
+      "heading": {
+       "text": "Your place awaits.",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 74,
+      "right": 102,
+      "textLeft": 74,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section",
+      "tag": "section",
+      "top": 4591,
+      "height": 700,
+      "words": 102,
+      "media": 0,
+      "middle": 219,
+      "heading": {
+       "text": "Good to know.",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 74,
+      "right": 244,
+      "textLeft": 74,
+      "textRight": 244,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 5291,
+      "height": 712,
+      "words": 22,
+      "media": 0,
+      "middle": 874,
+      "heading": null,
+      "left": 74,
+      "right": 74,
+      "textLeft": 74,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1468,
+      "height": 348
+     },
+     {
+      "top": 2424,
+      "height": 344
+     },
+     {
+      "top": 3400,
+      "height": 328
+     },
+     {
+      "top": 4416,
+      "height": 328
+     }
+    ],
+    "h1s": [
+     {
+      "text": "EMPIRE",
+      "size": 528,
+      "top": 360,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 74,
+      "n": 12
+     },
+     {
+      "x": 677,
+      "n": 8
+     },
+     {
+      "x": 729,
+      "n": 8
+     },
+     {
+      "x": 706,
+      "n": 4
+     },
+     {
+      "x": 532,
+      "n": 2
+     },
+     {
+      "x": 888,
+      "n": 2
+     },
+     {
+      "x": 989,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.95,
+    0.63,
+    0.65,
+    1,
+    0.59,
+    0.59
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 3,
+    "transitions": 20,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5188,
+     "screens": 5.1,
+     "words": 479,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "EMPIRE",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 158.2,
+     "vw": 20.6,
+     "font": "Barlow Condensed",
+     "weight": 700,
+     "tracking": -0.055,
+     "leading": 0.76,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 615,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "EMPIRE",
+     "words": 1,
+     "lines": 1,
+     "size": 158.2,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "EMPIRE",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 158.2,
+      "vw": 20.6,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.76,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 615,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Build a life. Risk it.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 1015,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your story. Your empire.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 1582,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "No soft edges.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 2598,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your place awaits.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 3515,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Good to know.",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 4250,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "EMPIRE",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 158.2,
+      "vw": 20.6,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.76,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 4975,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      24,
+      49,
+      158
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.5
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 158.2,
+      "vw": 20.6,
+      "font": "Barlow Condensed",
+      "text": "EMPIRE"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#161719",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.06,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#262022",
+       "top": 74,
+       "hsl": {
+        "h": 340,
+        "s": 0.09,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#d3d7d4",
+       "top": 911,
+       "hsl": {
+        "h": 135,
+        "s": 0.05,
+        "l": 0.84
+       }
+      },
+      {
+       "color": "#161719",
+       "top": 1477,
+       "hsl": {
+        "h": 220,
+        "s": 0.06,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#242526",
+       "top": 2493,
+       "hsl": {
+        "h": 210,
+        "s": 0.03,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#c8ccca",
+       "top": 3410,
+       "hsl": {
+        "h": 150,
+        "s": 0.04,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#e9eceb",
+       "top": 4811,
+       "hsl": {
+        "h": 160,
+        "s": 0.07,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c1bbb1",
+       "share": 0.47
+      },
+      {
+       "color": "#e9eceb",
+       "share": 0.18
+      },
+      {
+       "color": "#363a37",
+       "share": 0.1
+      },
+      {
+       "color": "#393c3a",
+       "share": 0.09
+      },
+      {
+       "color": "#383c39",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c9a36b",
+      "hsl": {
+       "h": 36,
+       "s": 0.47,
+       "l": 0.6
+      },
+      "fg": "#171514"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Enter the world ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2830
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3752
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.82
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 74,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow condensed",
+     "dm sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5188,
+    "margins": {
+     "left": 23,
+     "right": 23
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 74,
+      "height": 837,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "EMPIRE",
+       "size": 158,
+       "tag": "h1"
+      },
+      "left": 23,
+      "right": 360,
+      "textLeft": 23,
+      "textRight": 360,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#world.world-section",
+      "tag": "section",
+      "top": 911,
+      "height": 565,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Build a life. Risk it.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 149,
+      "textLeft": 23,
+      "textRight": 149,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.path-section",
+      "tag": "section",
+      "top": 1477,
+      "height": 1016,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your story. Your empire.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 119,
+      "textLeft": 23,
+      "textRight": 119,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#code.code-section",
+      "tag": "section",
+      "top": 2493,
+      "height": 917,
+      "words": 109,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "No soft edges.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 96,
+      "textLeft": 23,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#join.join-section",
+      "tag": "section",
+      "top": 3410,
+      "height": 745,
+      "words": 97,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your place awaits.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 37,
+      "textLeft": 23,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section",
+      "tag": "section",
+      "top": 4156,
+      "height": 655,
+      "words": 102,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Good to know.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 254,
+      "textLeft": 23,
+      "textRight": 254,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 4811,
+      "height": 377,
+      "words": 23,
+      "media": 0,
+      "middle": 260,
+      "heading": {
+       "text": "EMPIRE",
+       "size": 158,
+       "tag": "div"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 23,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "EMPIRE",
+      "size": 158,
+      "top": 615,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 23,
+      "n": 34
+     },
+     {
+      "x": 272,
+      "n": 2
+     },
+     {
+      "x": 521,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.97,
+    0.72,
+    0.53,
+    0.88,
+    0.99,
+    0.74,
+    0.78
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 3,
+    "transitions": 20,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5532,
+     "screens": 6.6,
+     "words": 479,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "EMPIRE",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 83.2,
+     "vw": 21.3,
+     "font": "Barlow Condensed",
+     "weight": 700,
+     "tracking": -0.052,
+     "leading": 0.76,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 517,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "EMPIRE",
+     "words": 1,
+     "lines": 1,
+     "size": 83.2,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "EMPIRE",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 83.2,
+      "vw": 21.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.052,
+      "leading": 0.76,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 517,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Build a life. Risk it.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 49,
+      "vw": 12.6,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 831,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your story. Your empire.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 49,
+      "vw": 12.6,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 1446,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Find your ground",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1667,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Build something worth keeping",
+      "words": 4,
+      "chars": 29,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1864,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Know what you stand to lose",
+      "words": 6,
+      "chars": 27,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2062,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Leave your mark",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2231,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "No soft edges.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 49,
+      "vw": 12.6,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 2551,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The world is open",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2896,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Build with the risk",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3058,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Player stories come first",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3221,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Your place awaits.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 49,
+      "vw": 12.6,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 3604,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get the address",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3869,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose your first road",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4031,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Make it your own",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4194,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Good to know.",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 49,
+      "vw": 12.6,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 4629,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Is Empire SMP griefable? +",
+      "words": 5,
+      "chars": 26,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4707,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "What is the main goal? +",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4801,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "How do I join? +",
+      "words": 5,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4895,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Which version or edition do I need? +",
+      "words": 8,
+      "chars": 37,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4989,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "EMPIRE",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 83.2,
+      "vw": 21.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.052,
+      "leading": 0.76,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 5364,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 21,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      24,
+      49,
+      83
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.5
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 83.2,
+      "vw": 21.3,
+      "font": "Barlow Condensed",
+      "text": "EMPIRE"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#161719",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.06,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#262022",
+       "top": 68,
+       "hsl": {
+        "h": 340,
+        "s": 0.09,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#d3d7d4",
+       "top": 743,
+       "hsl": {
+        "h": 135,
+        "s": 0.05,
+        "l": 0.84
+       }
+      },
+      {
+       "color": "#161719",
+       "top": 1358,
+       "hsl": {
+        "h": 220,
+        "s": 0.06,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#242526",
+       "top": 2463,
+       "hsl": {
+        "h": 210,
+        "s": 0.03,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#c8ccca",
+       "top": 3516,
+       "hsl": {
+        "h": 150,
+        "s": 0.04,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#e9eceb",
+       "top": 5167,
+       "hsl": {
+        "h": 160,
+        "s": 0.07,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c1bbb1",
+       "share": 0.47
+      },
+      {
+       "color": "#e9eceb",
+       "share": 0.18
+      },
+      {
+       "color": "#363a37",
+       "share": 0.1
+      },
+      {
+       "color": "#393c3a",
+       "share": 0.09
+      },
+      {
+       "color": "#383c39",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c9a36b",
+      "hsl": {
+       "h": 36,
+       "s": 0.47,
+       "l": 0.6
+      },
+      "fg": "#171514"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Enter the world ↓"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1838
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2872
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3851
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4703
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.81
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow condensed",
+     "dm sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5532,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 68,
+      "height": 675,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "EMPIRE",
+       "size": 83,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#world.world-section",
+      "tag": "section",
+      "top": 743,
+      "height": 615,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Build a life. Risk it.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.path-section",
+      "tag": "section",
+      "top": 1358,
+      "height": 1105,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your story. Your empire.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#code.code-section",
+      "tag": "section",
+      "top": 2463,
+      "height": 1053,
+      "words": 109,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "No soft edges.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 26,
+      "textLeft": 20,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#join.join-section",
+      "tag": "section",
+      "top": 3516,
+      "height": 1029,
+      "words": 97,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your place awaits.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section",
+      "tag": "section",
+      "top": 4545,
+      "height": 622,
+      "words": 102,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Good to know.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 56,
+      "textLeft": 20,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 5167,
+      "height": 365,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "EMPIRE",
+       "size": 83,
+       "tag": "div"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "EMPIRE",
+      "size": 83,
+      "top": 517,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 38
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "4 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\desktop-page-01.jpg",
+    "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Ronak\\Website Projects\\Shadow's SMP\\.taste-skill\\after\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
