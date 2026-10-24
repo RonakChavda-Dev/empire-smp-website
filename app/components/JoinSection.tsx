@@ -8,10 +8,10 @@ const realmNotes = [
 
 export default function JoinSection() {
   return (
-    <section className="join-section" id="join" aria-labelledby="join-title">
+    <section className="join-section" id="before-you-join" aria-labelledby="before-you-join-title">
       <div className="join-sky" aria-hidden="true" />
       <div className="section-frame join-frame">
-        <Reveal className="join-heading"><p className="eyebrow">The gates are open</p><h2 id="join-title">Your place in<br />the realm awaits.</h2><p>Connect with Minecraft 26.3 or the latest version compatible with the server, and join the Discord community to keep up with server details.</p></Reveal>
+        <Reveal className="join-heading"><p className="eyebrow">Before you join</p><h2 id="before-you-join-title">Your place in<br />the realm awaits.</h2><p>Connect with Minecraft 26.3 or the latest version compatible with the server. Empire is a shared survival world where your choices shape what comes next.</p></Reveal>
         <Reveal className="realm-charter">
           <div className="charter-heading">
             <h3>A realm<br />without guarantees.</h3>

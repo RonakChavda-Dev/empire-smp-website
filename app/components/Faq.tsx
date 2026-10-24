@@ -14,13 +14,13 @@ export default function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="faq-section" id="faq" aria-labelledby="faq-title">
+    <section className="faq-section" id="server-faq" aria-labelledby="server-faq-title">
       <div className="section-frame faq-frame">
-        <Reveal className="faq-intro"><p className="eyebrow">Before you cross the gate</p><h2 id="faq-title">A few words<br />of counsel.</h2><p>What to expect before you set out.</p></Reveal>
+        <Reveal className="faq-intro"><p className="eyebrow">Before you cross the gate</p><h2 id="server-faq-title">A few words<br />of counsel.</h2><p>What to expect before you set out.</p></Reveal>
         <div className="faq-list">
           {answers.map((item, index) => {
             const isOpen = openIndex === index;
-            const answerId = `faq-answer-${index}`;
+            const answerId = `server-faq-answer-${index + 1}`;
             return (
               <Reveal className="faq-item" delay={index * 75} key={item.question}>
                 <button className="faq-question" type="button" aria-expanded={isOpen} aria-controls={answerId} onClick={() => setOpenIndex(isOpen ? null : index)}>

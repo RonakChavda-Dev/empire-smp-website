@@ -45,7 +45,7 @@ a {
   text-decoration: none;
 }
 a:focus-visible,
-summary:focus-visible {
+button:focus-visible {
   outline: 2px solid var(--gold-light);
   outline-offset: 5px;
 }
@@ -1410,7 +1410,7 @@ a {
     display: block;
     justify-self: end;
   }
-  .mobile-menu summary {
+  .mobile-menu-toggle {
     position: absolute;
     right: var(--gutter);
     top: 50%;
@@ -1420,45 +1420,80 @@ a {
     gap: 6px;
     width: 34px;
     height: 34px;
+    padding: 0;
+    border: 0;
+    background: transparent;
     cursor: pointer;
-    list-style: none;
     transform: translateY(-50%);
   }
-  .mobile-menu summary::-webkit-details-marker {
-    display: none;
-  }
-  .mobile-menu summary span {
+  .mobile-menu-toggle span {
     display: block;
     width: 25px;
     height: 1px;
     background: var(--gold);
-    transition: transform 0.25s ease;
+    transition: transform 0.38s var(--ease);
   }
-  .mobile-menu[open] summary span:first-child {
+  .mobile-menu.is-open .mobile-menu-toggle span:first-child {
     transform: translateY(3.5px) rotate(45deg);
   }
-  .mobile-menu[open] summary span:last-child {
+  .mobile-menu.is-open .mobile-menu-toggle span:last-child {
     transform: translateY(-3.5px) rotate(-45deg);
   }
-  .mobile-menu nav {
+  .mobile-menu-panel {
     position: absolute;
     top: calc(100% - 1px);
     right: 0;
     left: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-12px);
+    transition: grid-template-rows 0.42s var(--ease), opacity 0.25s ease, transform 0.42s var(--ease), visibility 0s linear 0.42s;
+  }
+  .mobile-menu.is-open .mobile-menu-panel {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+    transition-delay: 0s;
+  }
+  .mobile-menu-panel-inner {
+    min-height: 0;
     display: flex;
     flex-direction: column;
     padding: 10px var(--gutter) 20px;
     background: var(--night);
     border-bottom: 1px solid rgba(217, 173, 99, 0.4);
   }
-  .mobile-menu nav a {
+  .mobile-menu-panel-inner a {
     display: flex;
     justify-content: space-between;
     padding-block: 12px;
     color: var(--parchment);
     border-top: 1px solid rgba(217, 173, 99, 0.16);
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: opacity 0.25s ease, transform 0.35s var(--ease);
   }
-  .mobile-menu nav a span {
+  .mobile-menu.is-open .mobile-menu-panel-inner a {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .mobile-menu.is-open .mobile-menu-panel-inner a:nth-child(2) {
+    transition-delay: 35ms;
+  }
+  .mobile-menu.is-open .mobile-menu-panel-inner a:nth-child(3) {
+    transition-delay: 70ms;
+  }
+  .mobile-menu.is-open .mobile-menu-panel-inner a:nth-child(4) {
+    transition-delay: 105ms;
+  }
+  .mobile-menu-panel-inner a span {
     color: var(--gold);
   }
   .hero {
@@ -1532,7 +1567,7 @@ a {
   .header-action {
     display: none;
   }
-  .mobile-menu summary {
+  .mobile-menu-toggle {
     right: var(--gutter);
   }
   .hero {

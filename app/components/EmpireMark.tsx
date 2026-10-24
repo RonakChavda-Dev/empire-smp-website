@@ -1,6 +1,6 @@
 export default function EmpireMark({ large = false, crestOnly = false }: { large?: boolean; crestOnly?: boolean }) {
   return (
-    <a className={`brand${large ? " brand-large" : ""}${crestOnly ? " brand-crest-only" : ""}`} href="#top" aria-label="Empire SMP home">
+    <a className={`brand${large ? " brand-large" : ""}${crestOnly ? " brand-crest-only" : ""}`} href="#home" aria-label="Empire SMP home">
       <svg aria-hidden="true" className="brand-crest" viewBox="0 0 92 108" fill="none">
         <path className="crest-ribbon" d="M11 67 3 83l21-2 8 19 14-15 14 15 8-19 21 2-8-16" />
         <path className="crest-shield" d="M46 15 78 27v30c0 21-14 35-32 44C28 92 14 78 14 57V27l32-12Z" />
