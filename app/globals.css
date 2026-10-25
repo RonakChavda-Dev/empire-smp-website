@@ -613,6 +613,46 @@ a {
 .realm-panel .join-actions-compact .join-action-hint {
   font-size: 13px;
 }
+.realm-panel-browser {
+  position: relative;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 14px;
+  padding-bottom: 4px;
+  color: var(--gold-light);
+  border-bottom: 1px solid rgba(217, 173, 99, 0.35);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: color 0.25s ease;
+}
+.realm-panel-browser::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 1px;
+  background: var(--parchment);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.45s var(--ease);
+}
+.realm-panel-browser span {
+  display: inline-block;
+  transition: transform 0.3s var(--ease);
+}
+.realm-panel-browser:hover,
+.realm-panel-browser:focus-visible {
+  color: var(--parchment);
+}
+.realm-panel-browser:hover::after,
+.realm-panel-browser:focus-visible::after {
+  transform: scaleX(1);
+}
+.realm-panel-browser:hover span,
+.realm-panel-browser:focus-visible span {
+  transform: translate(3px, -3px);
+}
 .realm-panel-note {
   margin: 16px 0 0;
   color: var(--muted);
@@ -1046,6 +1086,44 @@ a {
 }
 .copy-fallback code {
   user-select: all;
+}
+.browser-play {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+  margin-top: clamp(58px, 6vw, 88px);
+  padding: clamp(32px, 5vw, 64px);
+  color: var(--parchment);
+  background: var(--night-2);
+  border: 1px solid rgba(217, 173, 99, 0.62);
+  scroll-margin-top: 100px;
+}
+.browser-play .eyebrow {
+  color: var(--gold-light);
+}
+.browser-play h3 {
+  margin: 0;
+  color: var(--parchment);
+  font-family: var(--serif);
+  font-size: clamp(38.16px, 4.6vw, 61.48px);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  text-wrap: balance;
+}
+.browser-play-copy > p:last-child {
+  max-width: 56ch;
+  margin: 20px 0 0;
+  color: #d3c4b7;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.browser-play-button {
+  min-height: 58px;
+  padding-inline: 28px;
+  font-size: 15px;
+  white-space: nowrap;
 }
 .realm-charter {
   display: grid;
@@ -1758,6 +1836,15 @@ a {
   }
   .join-heading h2 {
     font-size: clamp(57.24px, 15.9vw, 77.38px);
+  }
+  .browser-play {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-top: 63px;
+    padding: 34px 25px;
+  }
+  .browser-play-button {
+    width: 100%;
   }
   .realm-charter {
     grid-template-columns: 1fr;

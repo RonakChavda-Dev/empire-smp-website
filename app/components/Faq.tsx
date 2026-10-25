@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 const answers = [
   { question: "Is Empire SMP griefable?", answer: "Yes. Builds and items are not protected from other players. Choose your base, alliances, and risks with that in mind." },
   { question: "What is the goal of the server?", answer: "Survive, grow, and have fun. Build a home, start a settlement, explore, trade, compete, or set your own goal." },
-  { question: "How can I join?", answer: "Add theempiresmp.play.hosting to your Minecraft server list, then join the community at discord.gg/r8Tp55WBbS." },
+  { question: "How can I join?", answer: "Add theempiresmp.play.hosting to your Minecraft server list, then join the community at discord.gg/r8Tp55WBbS. No Minecraft account or launcher? Play in your browser at eymenwsmc.site." },
   { question: "Which version or edition do I need?", answer: "Use Minecraft Java Edition 1.8 to 26.3 and also works on Eaglercraft but only 26.2/26.3 Eaglercraft" },
 ];
 

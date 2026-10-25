@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-export default function Reveal({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
+export default function Reveal({ children, className = "", delay = 0, id }: { children: React.ReactNode; className?: string; delay?: number; id?: string }) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const element = ref.current;
@@ -25,5 +25,5 @@ export default function Reveal({ children, className = "", delay = 0 }: { childr
     observer.observe(element);
     return () => observer.disconnect();
   }, []);
-  return <div ref={ref} className={className} style={{ "--reveal-delay": `${delay}ms` } as React.CSSProperties}>{children}</div>;
+  return <div ref={ref} id={id} className={className} style={{ "--reveal-delay": `${delay}ms` } as React.CSSProperties}>{children}</div>;
 }

@@ -1,3 +1,4 @@
+import BrowserPlay from "./BrowserPlay";
 import Reveal from "./Reveal";
 
 const realmNotes = [
@@ -12,6 +13,7 @@ export default function JoinSection() {
       <div className="join-sky" aria-hidden="true" />
       <div className="section-frame join-frame">
         <Reveal className="join-heading"><p className="eyebrow">Before you join</p><h2 id="before-you-join-title">Your place in<br />the realm awaits.</h2><p>Connect with Minecraft 26.3 or the latest version compatible with the server. Empire is a shared survival world where your choices shape what comes next.</p></Reveal>
+        <BrowserPlay />
         <Reveal className="realm-charter">
           <div className="charter-heading">
             <h3>A realm<br />without guarantees.</h3>

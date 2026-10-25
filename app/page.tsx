@@ -7,6 +7,7 @@ import ServerCode from "./components/ServerCode";
 import ServerPresence from "./components/ServerPresence";
 import SiteHeader from "./components/SiteHeader";
 import JoinActions from "./components/JoinActions";
+import { browserPlayUrl } from "./lib/site";
 
 export default function HomePage() {
   return (
@@ -30,6 +31,7 @@ export default function HomePage() {
             </div>
             <ServerPresence />
             <JoinActions compact />
+            <a className="realm-panel-browser" href={browserPlayUrl} target="_blank" rel="noopener noreferrer">No Minecraft account? Play in your browser <span aria-hidden="true">↗</span></a>
             <p className="realm-panel-note">A survival world. Make your mark and mind your walls.</p>
           </aside>
           <div className="hero-caption"><span>THE KEEP AT DUSK</span><span>One world. Your story.</span></div>
